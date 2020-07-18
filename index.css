@@ -554,13 +554,13 @@ body {
       rgba(10, 10, 10, 0.3),
       rgb(10, 10, 10, 1)
     ),
-    url("https://s.soarn.pro/releases/16JUNE2019/7)%20Screensavers/02.soarn.pro-official-theme-v1.1/darling-franxx-background%20(5).jpg");
+    url("https://s.soarn.pro/releases/16JUNE2019/7)%20Screensavers/02.soarn.pro-official-theme-v1.1/darling-franxx-background%20(12).png");
   --background-background: linear-gradient(
       0deg,
       rgba(10, 10, 10, 1),
       rgba(10, 10, 10, 0.6)
     ),
-    url("https://s.soarn.pro/releases/16JUNE2019/7)%20Screensavers/02.soarn.pro-official-theme-v1.1/darling-franxx-background%20(5).jpg") center center fixed;
+    url("https://s.soarn.pro/releases/16JUNE2019/7)%20Screensavers/02.soarn.pro-official-theme-v1.1/darling-franxx-background%20(12).png") center center fixed;
   --height: 50vh;
 }
 
@@ -591,6 +591,6 @@ body {
         rgba(10, 10, 10, 1),
         rgba(10, 10, 10, 0)
       ),
-      url("https://s.soarn.pro/releases/16JUNE2019/7)%20Screensavers/02.soarn.pro-official-theme-v1.1/darling-franxx-background%20(5).jpg") !important;
+      url("https://s.soarn.pro/releases/16JUNE2019/7)%20Screensavers/02.soarn.pro-official-theme-v1.1/darling-franxx-background%20(12).png") !important;
   }
 }
