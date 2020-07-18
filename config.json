@@ -1,11 +1,11 @@
 [
  {
   "username": "soarn",
-  "name": "Saorn",
+  "name": "Soarn",
   "userimg": "https://avatars3.githubusercontent.com/u/11000195?v=4",
   "sort": "updated",
-  "order": "asc",
-  "includeFork": true,
+  "order": "desc",
+  "includeFork": false,
   "theme": "dark.css",
   "types": [
    "owner"
