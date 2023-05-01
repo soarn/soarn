@@ -1,5 +1,5 @@
 ### Hi there :sunglasses:
-[![My github stats](https://github-readme-stats.vercel.app/api?username=soarn)](https://github.com/anuraghazra/github-readme-stats)
+[![My github stats](https://github-readme-stats.vercel.app/api?username=soarn&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 ![](/a.gif)
 <!-- runs [soarn.pro](https://soarn.pro) --!>
 <picture>
