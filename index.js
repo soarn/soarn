@@ -37,7 +37,7 @@ async function main() {
     console.error(`music-box ran into an issue getting your Gist:\n${error}`);
   }
 
-  const numArtitst = Math.min(10, json.topartists.artist[i].length);
+  const numArtitst = Math.min(10, json.topartists.artist.length);
   let playsTotal = 0;
   for(let i = 0; i < numArtitst; i++) {
     playsTotal += parseInt(json.topartists.artist[i].playcount, 10);
@@ -45,7 +45,7 @@ async function main() {
 
   const lines = [];
   for(let i = 0; i < numArtitst; i++) {
-    const plays = json.topartists.artist.playcount;
+    const plays = json.topartists.artist[i].playcount;
     let name =  json.topartists.artist[i].name.substring(0, 25);
     // trim off long widechars
     for(let i = 24; i >= 0; i--) {
