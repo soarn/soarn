@@ -45,7 +45,7 @@ async function main() {
 
   const lines = [];
   for(let i = 0; i < numArtitst; i++) {
-    const plays = json.topartists.artist[i].playcount;
+    const plays = json.topartists.artist.playcount;
     let name =  json.topartists.artist[i].name.substring(0, 25);
     // trim off long widechars
     for(let i = 24; i >= 0; i--) {
