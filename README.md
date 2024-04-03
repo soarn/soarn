@@ -10,6 +10,7 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/soarn/soarn/output/github-contribution-grid-snake.svg" />
 </picture>
 
+[![An image of @soarn's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/soarn)](https://holopin.io/@soarn)
 <!--
 **soarn/soarn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
