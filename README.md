@@ -6,8 +6,8 @@ https://splitter.imageonline.co/
 -->
 <div align="center">
   <p float="left">
-    <img src="/images/1.png" height="495" align="left">
-    <img src="/images/2.png" height="495" align="right">
+    <img src="/images/1.png" height="350" align="left">
+    <img src="/images/2.png" height="350" align="right">
   </p>
   <div align="center">
     <samp>
