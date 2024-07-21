@@ -11,9 +11,9 @@ https://splitter.imageonline.co/
   </p>
   <div align="center">
     <samp>
-      <br> languages: HTML, CSS, bash, python, powershell
+      <br> languages: web stack, bash, python, powershell
       <br>
-      <br> technologies: unix, networking, metrics, data collection
+      <br> technologies: unix, networking, docker, metrics, data collection
       <br>
       <br>
     </samp>
