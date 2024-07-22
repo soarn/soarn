@@ -6,16 +6,16 @@ defaults:
   docker:
     - image: cimg/node:19.0
 
+# We use two install commands to allow the npm install operation to occur with a prefix.
 commands:
   install1:
     steps:
       - restore_cache:
+      # https://circleci.com/docs/caching/#source-caching if the repo grows too big, replace source-cache with dependency-cache, git clone can be faster than restore_cache.
           keys:
             - &source-cache source-v1-{{ .Branch }}-{{ .Revision }}
             - source-v1-{{ .Branch }}-
             - source-v1-
-            # - node-v1-musicbox-{{ checksum "package.json" }}
-            # - node-v1-osubox-{{ checksum "package.json" }}
       - checkout
   install2:
     steps:
@@ -23,19 +23,6 @@ commands:
           key: *source-cache
           paths:
             - ".git"
-
-  # install-osubox:
-  #   steps:
-  #     - checkout
-  #     - restore_cache:
-  #         keys:
-  #           - dependency-cache-{{ checksum "osubox/package.json" }}
-  #           - dependency-cache-
-  #     - run: npm install --prefix osubox
-  #     - save_cache:
-  #         key: dependency-cache-{{ checksum "osubox/package.json" }}
-  #         paths:
-  #           - osubox/node_modules
 
 jobs:
   musicbox:
@@ -45,8 +32,6 @@ jobs:
       - run: npm install --prefix musicbox
       - install2
       - run: node musicbox/musicbox.js
-    # The resource_class feature allows configuring CPU and RAM resources for each job. Different resource classes are available for different executors. https://circleci.com/docs/2.0/configuration-reference/#resourceclass
-    # resource_class: large
     resource_class: small
 
   osubox:
