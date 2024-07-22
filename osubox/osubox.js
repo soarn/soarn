@@ -5,16 +5,16 @@ const { v2, auth } = require('osu-api-extended')
 
 const SCOPE_LIST = ['public'];
 const main = async () => {
-    const { OSUBOX_ID, OSU_USERNAME, OSU_MODE, GH_TOKEN, CLIENT_ID, CLIENT_SECRET } = process.env
+    const { OSUBOX_ID, OSU_USERNAME, OSU_MODE, GH_TOKEN, OSUBOX_CLIENT_ID, OSUBOX_CLIENT_SECRET } = process.env
     //OSUBOX_ID, OSU_USERNAME, OSU_MODE -> public
-    //GH_TOKEN, CLIENT_ID, CLIENT_SECRET -> env var
+    //GH_TOKEN, OSUBOX_CLIENT_ID, OSUBOX_CLIENT_SECRET -> env var
     //OSU_MODE ex. "osu" | "fruits" | "mania" | "taiko"
 
     // Get the user's osu data
     console.log(`Getting data for ${OSU_USERNAME}`)
 
     // Auth via client
-    await auth.login(CLIENT_ID, CLIENT_SECRET, SCOPE_LIST);
+    await auth.login(OSUBOX_CLIENT_ID, OSUBOX_CLIENT_SECRET, SCOPE_LIST);
     const data = await v2.user.details(OSU_USERNAME, OSU_MODE)
 
     // Sort data
