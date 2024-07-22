@@ -2,40 +2,53 @@ version: 2.1
 
 defaults:
   &defaults
-  # working_directory: ~/repo
+  working_directory: ~/repo
   docker:
     - image: cimg/node:19.0
 
 commands:
-  install:
+  install-musicbox:
     steps:
       - checkout
       - restore_cache:
           keys:
             - dependency-cache-{{ checksum "package.json" }}
-            - dependency-cache-
+            # - dependency-cache-
       - run: npm install
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - node_modules
 
+  install-osubox:
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - dependency-cache-{{ checksum "osubox/package.json" }}
+            # - dependency-cache-
+      - run: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "osubox/package.json" }}
+          paths:
+            - node_modules
+
 jobs:
   musicbox:
     <<: *defaults
-    working_directory: ~/repo/musicbox
+    # working_directory: ~/repo/musicbox
     steps:
-      - install
-      - run: node musicbox.js
+      - install-musicbox
+      - run: node musicbox/musicbox.js
     # The resource_class feature allows configuring CPU and RAM resources for each job. Different resource classes are available for different executors. https://circleci.com/docs/2.0/configuration-reference/#resourceclass
     # resource_class: large
     resource_class: small
 
   osubox:
     <<: *defaults
-    working_directory: ~/repo/osubox
+    # working_directory: ~/repo/osubox
     steps:
-      - install
+      - install-osubox
       - run: node osubox/osubox.js
     resource_class: small
 
