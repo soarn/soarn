@@ -13,8 +13,8 @@ commands:
       - restore_cache:
           keys:
             - dependency-cache-{{ checksum "musicbox/package.json" }}
-            # - dependency-cache-
-      - run: npm install
+            - dependency-cache-
+      - run: npm install --prefix musicbox
       - save_cache:
           key: dependency-cache-{{ checksum "musicbox/package.json" }}
           paths:
@@ -26,8 +26,8 @@ commands:
       - restore_cache:
           keys:
             - dependency-cache-{{ checksum "osubox/package.json" }}
-            # - dependency-cache-
-      - run: npm install
+            - dependency-cache-
+      - run: npm install --prefix osubox
       - save_cache:
           key: dependency-cache-{{ checksum "osubox/package.json" }}
           paths:
