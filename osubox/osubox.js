@@ -5,8 +5,8 @@ const { v2, auth } = require('osu-api-extended')
 
 const SCOPE_LIST = ['public'];
 const main = async () => {
-    const { GIST_ID, OSU_USERNAME, OSU_MODE, GH_TOKEN, CLIENT_ID, CLIENT_SECRET } = process.env
-    //GIST_ID, OSU_USERNAME, OSU_MODE -> public
+    const { OSUBOX_ID, OSU_USERNAME, OSU_MODE, GH_TOKEN, CLIENT_ID, CLIENT_SECRET } = process.env
+    //OSUBOX_ID, OSU_USERNAME, OSU_MODE -> public
     //GH_TOKEN, CLIENT_ID, CLIENT_SECRET -> env var
     //OSU_MODE ex. "osu" | "fruits" | "mania" | "taiko"
 
@@ -26,7 +26,7 @@ const main = async () => {
         `${"Playcount".padStart(9)} 💾 | ${numberWithCommas(data.statistics.play_count)}\n`,
     ];
 
-    const box = new GistBox({ id: GIST_ID, token: GH_TOKEN })
+    const box = new GistBox({ id: OSUBOX_ID, token: GH_TOKEN })
     try {
         await box.update({
             filename: `🎶 ${data.username}'s osu!${(OSU_MODE=="osu")?"":OSU_MODE} stats`,
