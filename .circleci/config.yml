@@ -40,12 +40,14 @@ jobs:
     resource_class: small
 
 workflows:
-  version: 2
 
-  musicbox:
+# Test will deploy on every push to master.
+  test:
     jobs:
       - musicbox
+      - osubox
 
+# Poll will deploy on a schedule.
   musicbox_poll:
     triggers:
       - schedule:
@@ -57,10 +59,6 @@ workflows:
                 - master
     jobs:
       - musicbox
-
-  osubox:
-    jobs:
-      - osubox
   
   osubox_poll:
     triggers:
