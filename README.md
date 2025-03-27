@@ -16,16 +16,32 @@ https://splitter.imageonline.co/
       <br> technologies: unix, networking, docker, metrics, data collection
       <br>
       <br>
+      <img width="100px" src="https://komarev.com/ghpvc/?username=soarn&color=FFC832&style=flat-square&abbreviated=true" />
+      <br>
+      <br>
+      <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=soarn&show_icons=true&theme=outrun&bg_color=00000000&border_radius=15&hide_border=true&title_color=FFC832" alt="An image of @soarn's GitHub stats, which is a link to the github-readme-stats repo" width="340" /> </a>
     </samp>
   </div>
+<!--   <br>
   <br>
+   <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,html,css,python,flask,powershell,bash,prometheus,grafana,aws,docker" />
+  </a> -->
+<!--   <br>
+  <br> -->
+<!--   <img width="100px" src="https://komarev.com/ghpvc/?username=soarn&color=FFC832&style=flat-square&abbreviated=true" /> -->
+<!--   <br>
   <br>
-  <img width="100px" src="https://komarev.com/ghpvc/?username=soarn&color=FFC832&style=flat-square&abbreviated=true" />
-  <br>
-  <br>
-  <br>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=soarn&show_icons=true&theme=outrun&bg_color=00000000&border_radius=15&hide_border=true&title_color=FFC832" alt="An image of @soarn's GitHub stats, which is a link to the github-readme-stats repo" width="340" /> </a>
-   <a href="https://holopin.io/@soarn"><img align="center" src="https://holopin.me/soarn" alt="An image of @soarn's Holopin badges, which is a link to view their full Holopin profile" width="400"/> </a>
+  <br> -->
+<!--   <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=soarn&show_icons=true&theme=outrun&bg_color=00000000&border_radius=15&hide_border=true&title_color=FFC832" alt="An image of @soarn's GitHub stats, which is a link to the github-readme-stats repo" width="340" /> </a> -->
+<!--    <a href="https://holopin.io/@soarn"><img align="center" src="https://holopin.me/soarn" alt="An image of @soarn's Holopin badges, which is a link to view their full Holopin profile" width="400"/> </a> -->
+</div>
+<div>
+  <p align="center">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=js,html,css,python,flask,powershell,bash,prometheus,grafana,aws,docker" />
+    </a>
+  </p>
 </div>
 
 <!--
