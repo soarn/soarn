@@ -43,7 +43,13 @@ https://splitter.imageonline.co/
     </a>
   </p>
 </div>
-
+<div>
+  <p align="center">
+    <a href="https://osu.ppy.sh/u/soarn">
+      <img src="https://osu-sig.vercel.app/card?user=soarn&mode=mania&lang=en&animation=true&hue=125&mini=true" />
+    </a>
+  </p>
+</div>
 <!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soarn/soarn/output/github-contribution-grid-snake-dark.svg" />
