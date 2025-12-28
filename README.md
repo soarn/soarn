@@ -11,15 +11,22 @@ https://splitter.imageonline.co/
   </p>
   <div align="center">
     <samp>
-      <br> languages: web stack, bash, python, powershell
+      <!-- <br> languages: web stack, bash, python, powershell -->
+      <br> Cool guy that does stuff on the internet!
       <br>
-      <br> technologies: unix, networking, docker, metrics, data collection
+      <!-- <br> technologies: unix, networking, docker, metrics, data collection -->
+      <br> I do systems administration (unix and Windows), Virtualization (VMware by Broadcom, Proxmox, ESXi), and automation (PowerShell, Python, Ansible).
+      <br>
+      <br> Sometimes I stream on <a href="https://tv.soarn.dev">Twitch</a>!
       <br>
       <br>
       <img width="100px" src="https://komarev.com/ghpvc/?username=soarn&color=FFC832&style=flat-square&abbreviated=true" />
       <br>
       <br>
-      <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=soarn&show_icons=true&theme=outrun&bg_color=00000000&border_radius=15&hide_border=true&title_color=FFC832" alt="An image of @soarn's GitHub stats, which is a link to the github-readme-stats repo" width="340" /> </a>
+      <!-- <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=soarn&show_icons=true&theme=outrun&bg_color=00000000&border_radius=15&hide_border=true&title_color=FFC832" alt="An image of @soarn's GitHub stats, which is a link to the github-readme-stats repo" width="340" /> </a> -->
+      <a href="https://osu.ppy.sh/u/soarn">
+        <img src="https://osu-sig.vercel.app/card?user=soarn&mode=mania&lang=en&animation=true&hue=125&mini=true" />
+      </a>
     </samp>
   </div>
 <!--   <br>
@@ -36,20 +43,21 @@ https://splitter.imageonline.co/
 <!--   <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=soarn&show_icons=true&theme=outrun&bg_color=00000000&border_radius=15&hide_border=true&title_color=FFC832" alt="An image of @soarn's GitHub stats, which is a link to the github-readme-stats repo" width="340" /> </a> -->
 <!--    <a href="https://holopin.io/@soarn"><img align="center" src="https://holopin.me/soarn" alt="An image of @soarn's Holopin badges, which is a link to view their full Holopin profile" width="400"/> </a> -->
 </div>
-<div>
+<!-- This is the real skillicons btw -->
+<!-- <div>
   <p align="center">
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=js,html,css,python,flask,powershell,bash,prometheus,grafana,aws,docker" />
     </a>
   </p>
-</div>
-<div>
+</div> -->
+<!-- <div>
   <p align="center">
     <a href="https://osu.ppy.sh/u/soarn">
       <img src="https://osu-sig.vercel.app/card?user=soarn&mode=mania&lang=en&animation=true&hue=125&mini=true" />
     </a>
   </p>
-</div>
+</div> -->
 <!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soarn/soarn/output/github-contribution-grid-snake-dark.svg" />
