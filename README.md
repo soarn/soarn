@@ -17,7 +17,7 @@ https://splitter.imageonline.co/
       <!-- <br> technologies: unix, networking, docker, metrics, data collection -->
       <br> I do systems administration (unix and Windows), Virtualization (VMware by Broadcom, Proxmox, ESXi), and automation (PowerShell, Python, Ansible).
       <br>
-      <br> Sometimes I stream on <a href="https://tv.soarn.dev">Twitch</a>!
+      <!-- <br> Sometimes I stream on <a href="https://tv.soarn.dev">Twitch</a>! -->
       <br>
       <br>
       <img width="100px" src="https://komarev.com/ghpvc/?username=soarn&color=FFC832&style=flat-square&abbreviated=true" />
